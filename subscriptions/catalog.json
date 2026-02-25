@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cn_holidays_ical",
+    "name": "中国法定节假日",
+    "description": "包含中国法定节假日和调休安排",
+    "url": "https://cdn.jsdelivr.net/gh/lanbingtech/ai-calendar-data@main/subscriptions/cn_holidays.ics",
+    "category": "holidays",
+    "region": "CN"
+  },
+  {
+    "id": "us_holidays_ical",
+    "name": "US Federal Holidays",
+    "description": "United States Federal Holidays",
+    "url": "https://cdn.jsdelivr.net/gh/lanbingtech/ai-calendar-data@main/subscriptions/us_holidays.ics",
+    "category": "holidays",
+    "region": "US"
+  }
+]
