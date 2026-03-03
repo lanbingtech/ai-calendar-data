@@ -1,158 +1,197 @@
 {
   "2026-01-01": {
     "date": "2026-01-01",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "元旦"
   },
   "2026-01-02": {
     "date": "2026-01-02",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "元旦"
   },
   "2026-01-03": {
     "date": "2026-01-03",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "元旦"
   },
   "2026-01-04": {
     "date": "2026-01-04",
-    "isOffDay": false
+    "isOffDay": false,
+    "holiday": "元旦"
   },
   "2026-02-14": {
     "date": "2026-02-14",
-    "isOffDay": false
+    "isOffDay": false,
+    "holiday": "春节"
   },
   "2026-02-15": {
     "date": "2026-02-15",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-16": {
     "date": "2026-02-16",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-17": {
     "date": "2026-02-17",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-18": {
     "date": "2026-02-18",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-19": {
     "date": "2026-02-19",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-20": {
     "date": "2026-02-20",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-21": {
     "date": "2026-02-21",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-22": {
     "date": "2026-02-22",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-23": {
     "date": "2026-02-23",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "春节"
   },
   "2026-02-28": {
     "date": "2026-02-28",
-    "isOffDay": false
+    "isOffDay": false,
+    "holiday": "春节"
   },
   "2026-04-04": {
     "date": "2026-04-04",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "清明节"
   },
   "2026-04-05": {
     "date": "2026-04-05",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "清明节"
   },
   "2026-04-06": {
     "date": "2026-04-06",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "清明节"
   },
   "2026-05-01": {
     "date": "2026-05-01",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "劳动节"
   },
   "2026-05-02": {
     "date": "2026-05-02",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "劳动节"
   },
   "2026-05-03": {
     "date": "2026-05-03",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "劳动节"
   },
   "2026-05-04": {
     "date": "2026-05-04",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "劳动节"
   },
   "2026-05-05": {
     "date": "2026-05-05",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "劳动节"
   },
   "2026-05-09": {
     "date": "2026-05-09",
-    "isOffDay": false
+    "isOffDay": false,
+    "holiday": "劳动节"
   },
   "2026-06-19": {
     "date": "2026-06-19",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "端午节"
   },
   "2026-06-20": {
     "date": "2026-06-20",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "端午节"
   },
   "2026-06-21": {
     "date": "2026-06-21",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "端午节"
   },
   "2026-09-20": {
     "date": "2026-09-20",
-    "isOffDay": false
+    "isOffDay": false,
+    "holiday": "中秋节"
   },
   "2026-09-25": {
     "date": "2026-09-25",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "中秋节"
   },
   "2026-09-26": {
     "date": "2026-09-26",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "中秋节"
   },
   "2026-09-27": {
     "date": "2026-09-27",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "中秋节"
   },
   "2026-10-01": {
     "date": "2026-10-01",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "国庆节"
   },
   "2026-10-02": {
     "date": "2026-10-02",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "国庆节"
   },
   "2026-10-03": {
     "date": "2026-10-03",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "国庆节"
   },
   "2026-10-04": {
     "date": "2026-10-04",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "国庆节"
   },
   "2026-10-05": {
     "date": "2026-10-05",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "国庆节"
   },
   "2026-10-06": {
     "date": "2026-10-06",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "国庆节"
   },
   "2026-10-07": {
     "date": "2026-10-07",
-    "isOffDay": true
+    "isOffDay": true,
+    "holiday": "国庆节"
   },
   "2026-10-10": {
     "date": "2026-10-10",
-    "isOffDay": false
+    "isOffDay": false,
+    "holiday": "国庆节"
   }
 }
