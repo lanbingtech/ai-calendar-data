@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "providers": {
+    "qwen": {
+      "label": { "zh": "通义千问", "en": "Qwen" },
+      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiKeyHint": "sk-...",
+      "llmModels": [
+        { "name": "qwen-plus", "isDefault": true, "description": { "zh": "【均衡】效果、速度、成本平衡，适合日常对话", "en": "Balanced: performance, speed and cost for daily use" } },
+        { "name": "qwen3.5-plus", "description": { "zh": "【均衡】Qwen3.5 升级版，支持思考模式与多模态", "en": "Balanced: Qwen3.5 with thinking and multimodal" } },
+        { "name": "qwen3-max", "description": { "zh": "【最强】千问系列效果最佳，适合复杂推理与多步骤任务", "en": "Best: top capability for complex reasoning" } },
+        { "name": "qwen-max", "description": { "zh": "【最强】千问 Max，强推理能力，32K 上下文", "en": "Best: Qwen Max, strong reasoning, 32K context" } },
+        { "name": "qwen3.5-flash", "description": { "zh": "【最快】轻量快速、成本最低，适合简单任务", "en": "Fastest: lightweight, lowest cost for simple tasks" } },
+        { "name": "qwen-flash", "description": { "zh": "【最快】千问 Flash，速度快、成本低", "en": "Fastest: Qwen Flash, fast and low-cost" } },
+        { "name": "qwen-turbo", "description": { "zh": "【旧版】千问 Turbo，建议替换为千问 Flash", "en": "Legacy: consider Qwen Flash instead" } },
+        { "name": "qwen-long", "description": { "zh": "【长文本】最长 1000 万 token 上下文，适合长文本分析", "en": "Longest: 10M token context for long-text analysis" } },
+        { "name": "qwen3-coder-plus", "description": { "zh": "【代码】擅长工具调用与函数调用，适合 Agent 场景", "en": "Code: excels at tool/function calling for agents" } },
+        { "name": "qwen3-coder-flash", "description": { "zh": "【代码】轻量代码模型，速度快、成本低", "en": "Code: lightweight, fast and low-cost" } }
+      ],
+      "sttModels": [
+        { "name": "qwen3-asr-flash", "isDefault": true, "description": { "zh": "短音频（≤5 分钟）同步识别，支持流式，适合语音消息", "en": "Short audio (≤5min) sync, supports streaming" } }
+      ]
+    }
+  },
+  "providerOrder": ["qwen"]
+}
