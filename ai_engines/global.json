@@ -6,12 +6,17 @@
       "baseUrl": "https://api.openai.com/v1",
       "apiKeyHint": "sk-...",
       "llmModels": [
-        { "name": "gpt-4o", "isDefault": true, "description": { "zh": "多模态旗舰模型，支持图文理解与生成", "en": "Flagship multimodal model for vision and text" } },
-        { "name": "gpt-4o-mini", "description": { "zh": "轻量快速，适合日常对话", "en": "Lightweight and fast for daily use" } },
-        { "name": "gpt-4-turbo", "description": { "zh": "高性能推理，适合复杂任务", "en": "High-performance reasoning for complex tasks" } }
+        { "name": "gpt-4o", "isDefault": true, "description": { "zh": "稳定：快速、智能、灵活的多模态模型", "en": "Stable: fast, intelligent, flexible multimodal" } },
+        { "name": "gpt-5.2", "description": { "zh": "最强：编码与智能体任务首选，适合日程与复杂推理", "en": "Best: coding and agentic tasks, ideal for scheduling" } },
+        { "name": "gpt-5-mini", "description": { "zh": "均衡：快速且成本效益高，适合日常对话", "en": "Balanced: fast and cost-efficient for daily use" } },
+        { "name": "gpt-5-nano", "description": { "zh": "最快：最经济实惠，适合简单任务", "en": "Fastest: most cost-efficient for simple tasks" } },
+        { "name": "gpt-4o-mini", "description": { "zh": "轻量：快速经济，适合聚焦任务", "en": "Lightweight: fast and affordable for focused tasks" } },
+        { "name": "gpt-4.1", "description": { "zh": "智能：非推理类最智能模型", "en": "Smart: smartest non-reasoning model" } }
       ],
       "sttModels": [
-        { "name": "whisper-1", "isDefault": true, "description": { "zh": "高精度语音识别", "en": "High-accuracy speech recognition" } }
+        { "name": "whisper-1", "isDefault": true, "description": { "zh": "通用语音识别，兼容性好", "en": "General-purpose speech recognition, widely compatible" } },
+        { "name": "gpt-4o-transcribe", "description": { "zh": "高精度语音转文字，基于 GPT-4o", "en": "High-accuracy speech-to-text powered by GPT-4o" } },
+        { "name": "gpt-4o-mini-transcribe", "description": { "zh": "轻量快速语音识别，基于 GPT-4o mini", "en": "Lightweight fast transcription powered by GPT-4o mini" } }
       ]
     },
     "gemini": {
@@ -19,11 +24,18 @@
       "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
       "apiKeyHint": "AIza...",
       "llmModels": [
-        { "name": "gemini-3-flash-preview", "isDefault": true, "description": { "zh": "最新一代快速模型", "en": "Latest fast model" } },
-        { "name": "gemini-2.5-flash", "description": { "zh": "稳定版快速模型", "en": "Stable fast model" } }
+        { "name": "gemini-3-flash-preview", "isDefault": true, "description": { "zh": "预览：Frontier 级性能，以更低成本媲美大模型，支持代理与编码", "en": "Preview: Frontier-level performance at lower cost, agentic coding" } },
+        { "name": "gemini-3.1-pro-preview", "description": { "zh": "预览：高级智能、复杂问题解决、强大代理与氛围编码能力", "en": "Preview: advanced intelligence, complex reasoning, agentic coding" } },
+        { "name": "gemini-3.1-flash-lite-preview", "description": { "zh": "预览：Frontier 级性能，最快最经济，适合高并发", "en": "Preview: Frontier-level, fastest and most economical" } },
+        { "name": "gemini-2.5-flash", "description": { "zh": "稳定：性价比出色，适合推理与低延迟任务", "en": "Stable: best price-performance for reasoning tasks" } },
+        { "name": "gemini-2.5-pro", "description": { "zh": "稳定：最先进模型，深度推理与编码能力", "en": "Stable: most advanced, deep reasoning and coding" } },
+        { "name": "gemini-2.5-flash-lite", "description": { "zh": "稳定：2.5 系列最快最经济，适合简单任务", "en": "Stable: fastest and most economical in 2.5 series" } }
       ],
       "sttModels": [
-        { "name": "gemini-3-flash-preview", "isDefault": true, "description": { "zh": "多模态语音识别", "en": "Multimodal speech recognition" } }
+        { "name": "gemini-3-flash-preview", "isDefault": true, "description": { "zh": "预览：多模态音频理解，支持语音输入", "en": "Preview: multimodal audio understanding, speech input" } },
+        { "name": "gemini-3.1-flash-lite-preview", "description": { "zh": "预览：轻量快速音频理解，高并发场景", "en": "Preview: lightweight fast audio, high-volume workloads" } },
+        { "name": "gemini-2.5-flash", "description": { "zh": "稳定：多模态音频理解，支持语音输入", "en": "Stable: multimodal audio understanding, speech input" } },
+        { "name": "gemini-2.5-flash-lite", "description": { "zh": "稳定：轻量快速音频理解", "en": "Stable: lightweight fast audio understanding" } }
       ]
     },
     "qwen": {
@@ -31,16 +43,15 @@
       "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
       "apiKeyHint": "sk-...",
       "llmModels": [
-        { "name": "qwen-plus", "isDefault": true, "description": { "zh": "【均衡】效果、速度、成本平衡，适合日常对话", "en": "Balanced: performance, speed and cost for daily use" } },
-        { "name": "qwen3.5-plus", "description": { "zh": "【均衡】Qwen3.5 升级版，支持思考模式与多模态", "en": "Balanced: Qwen3.5 with thinking and multimodal" } },
-        { "name": "qwen3-max", "description": { "zh": "【最强】千问系列效果最佳，适合复杂推理与多步骤任务", "en": "Best: top capability for complex reasoning" } },
-        { "name": "qwen-max", "description": { "zh": "【最强】千问 Max，强推理能力，32K 上下文", "en": "Best: Qwen Max, strong reasoning, 32K context" } },
-        { "name": "qwen3.5-flash", "description": { "zh": "【最快】轻量快速、成本最低，适合简单任务", "en": "Fastest: lightweight, lowest cost for simple tasks" } },
-        { "name": "qwen-flash", "description": { "zh": "【最快】千问 Flash，速度快、成本低", "en": "Fastest: Qwen Flash, fast and low-cost" } },
-        { "name": "qwen-turbo", "description": { "zh": "【旧版】千问 Turbo，建议替换为千问 Flash", "en": "Legacy: consider Qwen Flash instead" } },
-        { "name": "qwen-long", "description": { "zh": "【长文本】最长 1000 万 token 上下文，适合长文本分析", "en": "Longest: 10M token context for long-text analysis" } },
-        { "name": "qwen3-coder-plus", "description": { "zh": "【代码】擅长工具调用与函数调用，适合 Agent 场景", "en": "Code: excels at tool/function calling for agents" } },
-        { "name": "qwen3-coder-flash", "description": { "zh": "【代码】轻量代码模型，速度快、成本低", "en": "Code: lightweight, fast and low-cost" } }
+        { "name": "qwen-plus", "isDefault": true, "description": { "zh": "均衡：效果、速度、成本平衡，适合日常对话", "en": "Balanced: performance, speed and cost for daily use" } },
+        { "name": "qwen3.5-plus", "description": { "zh": "均衡：Qwen3.5 升级版，支持思考模式与多模态", "en": "Balanced: Qwen3.5 with thinking and multimodal" } },
+        { "name": "qwen3-max", "description": { "zh": "最强：千问系列效果最佳，适合复杂推理与多步骤任务", "en": "Best: top capability for complex reasoning" } },
+        { "name": "qwen-max", "description": { "zh": "最强：千问 Max，强推理能力，32K 上下文", "en": "Best: Qwen Max, strong reasoning, 32K context" } },
+        { "name": "qwen3.5-flash", "description": { "zh": "最快：轻量快速、成本最低，适合简单任务", "en": "Fastest: lightweight, lowest cost for simple tasks" } },
+        { "name": "qwen-flash", "description": { "zh": "最快：千问 Flash，速度快、成本低", "en": "Fastest: Qwen Flash, fast and low-cost" } },
+        { "name": "qwen-long", "description": { "zh": "长文本：最长 1000 万 token 上下文，适合长文本分析", "en": "Longest: 10M token context for long-text analysis" } },
+        { "name": "qwen3-coder-plus", "description": { "zh": "代码：擅长工具调用与函数调用，适合 Agent 场景", "en": "Code: excels at tool/function calling for agents" } },
+        { "name": "qwen3-coder-flash", "description": { "zh": "代码：轻量代码模型，速度快、成本低", "en": "Code: lightweight, fast and low-cost" } }
       ],
       "sttModels": [
         { "name": "qwen3-asr-flash", "isDefault": true, "description": { "zh": "短音频（≤5 分钟）同步识别，支持流式，适合语音消息", "en": "Short audio (≤5min) sync, supports streaming" } }
